@@ -1,0 +1,46 @@
+
+<ion-content>
+  <div class="heading">
+    <h1>Bem Vindo</h1>
+  </div>
+  <div class="image">
+    <img src="https://www.reshot.com/preview-assets/icons/TL56XZQN4J/mushroom-game-TL56XZQN4J.svg" alt="welcome" width="12100" height="120"  class="blocktext">
+  </div>
+<div class="intro">
+<p>Introduzindo  o app</p>
+</div>
+  <div class="email-login">
+    <ion-button class="login" routerLink="/login">Login</ion-button>
+    <ion-button class="login" routerLink="/teste">Home</ion-button>
+    <ion-button class="login" routerLink="/cadastro">Cadastro</ion-button>
+    <ion-button class="login" routerLink="/historias">historias</ion-button>
+    <ion-button class="login" routerLink="/j-velha">velha</ion-button>
+    <ion-button class="login" routerLink="/conquistas">conquistas</ion-button>
+  </div>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Jogada: {{ player }}</ion-card-subtitle>
+      <ion-card-title *ngIf="winner">O jogador {{ winner }} venceu!</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4" *ngFor="let val of squares; let i = index">
+            <app-square
+                [value]="val"
+                (click)="makeMove(i)">
+            </app-square>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+
+  <ion-button expand="block" color="dark" (click)="newGame()">Novo Jogo</ion-button>
+
+
+</ion-content>
