@@ -38,12 +38,6 @@ O aplicativo tem como principal meta **desenvolver habilidades defasadas**, como
 
 ---
 
-## 👥 Agradecimentos
-
-Agradecimentos especiais ao professor **André Luís Moreira**, que nos apoiou durante todo o processo de criação e apresentação do projeto.
-
----
-
 ## 🤝 Contribua ou Apoie
 
 Se você gostou do projeto, uma simples ⭐ **estrela** aqui no GitHub já ajuda muito!  
