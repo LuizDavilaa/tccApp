@@ -36,9 +36,13 @@ O desenvolvimento foi impulsionado por entrevistas com professores da rede públ
 
 O aplicativo tem como principal meta **desenvolver habilidades defasadas**, como a leitura e o raciocínio lógico, de maneira interativa e envolvente. É uma ferramenta voltada principalmente para crianças em fase de alfabetização ou com dificuldades de aprendizagem.
 
+
 ---
 
 ## 🤝 Contribua ou Apoie
 
 Se você gostou do projeto, uma simples ⭐ **estrela** aqui no GitHub já ajuda muito!  
 Obrigado por ter lido até aqui 💻☕
+
+![Apresentação do projeto World Kids](https://media.licdn.com/dms/image/v2/D4E22AQFmfRIlnawVkw/feedshare-shrink_1280/feedshare-shrink_1280/0/1690564304426?e=1753920000&v=beta&t=vjYoewpUIgRfiA6T-vrPSwIoJCrlLFKnyg6hF-rZHmo)
+
